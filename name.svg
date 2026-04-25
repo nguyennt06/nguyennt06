@@ -1,53 +1,61 @@
 <svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
     <defs>
       <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
-        <stop offset="0%" stop-color="#0d1117"/>
-        <stop offset="100%" stop-color="#111827"/>
+        <stop offset="0%" stop-color="#020617"/>
+        <stop offset="100%" stop-color="#03140c"/>
       </linearGradient>
-      <linearGradient id="textGrad" x1="220" y1="70" x2="980" y2="250" gradientUnits="userSpaceOnUse">
-        <stop offset="0%" stop-color="#ff4ecd"/>
-        <stop offset="50%" stop-color="#c026d3"/>
-        <stop offset="100%" stop-color="#7c3aed"/>
+
+      <linearGradient id="borderGlow" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="#22c55e" stop-opacity="0.15"/>
+        <stop offset="50%" stop-color="#22c55e" stop-opacity="0.55"/>
+        <stop offset="100%" stop-color="#22c55e" stop-opacity="0.15"/>
       </linearGradient>
-      <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-        <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.35"/>
+
+      <filter id="textGlow" x="-20%" y="-20%" width="140%" height="140%">
+        <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#22c55e" flood-opacity="0.85"/>
+        <feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="#16a34a" flood-opacity="0.45"/>
       </filter>
+
+      <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+        <path d="M32 0H0V32" stroke="#22c55e" stroke-opacity="0.08" stroke-width="1"/>
+      </pattern>
+
+      <pattern id="scanlines" width="8" height="8" patternUnits="userSpaceOnUse">
+        <rect width="8" height="4" fill="#22c55e" fill-opacity="0.025"/>
+      </pattern>
+
       <style>
         .title {
-          font-family: Arial, Helvetica, sans-serif;
-          font-size: 86px;
-          font-weight: 800;
-          letter-spacing: -2px;
+          font-family: 'Courier New', Courier, monospace;
+          font-size: 64px;
+          font-weight: 700;
+          letter-spacing: 1px;
         }
-        .spark {
-          fill: #f8fafc;
-          opacity: 0.95;
+        .small {
+          font-family: 'Courier New', Courier, monospace;
+          font-size: 22px;
+          fill: #4ade80;
+          opacity: 0.9;
         }
       </style>
     </defs>
 
-    <rect width="1200" height="320" rx="28" fill="url(#bg)"/>
+    <rect width="1200" height="320" rx="20" fill="url(#bg)"/>
+    <rect width="1200" height="320" rx="20" fill="url(#grid)"/>
+    <rect width="1200" height="320" rx="20" fill="url(#scanlines)"/>
 
-    <g opacity="0.95">
-      <path class="spark" d="M175 55L178 65L188 68L178 71L175 81L172 71L162 68L172 65L175 55Z"/>
-      <path class="spark" d="M365 36L368 46L378 49L368 52L365 62L362 52L352 49L362 46L365 36Z"/>
-      <path class="spark" d="M520 44L523 54L533 57L523 60L520 70L517 60L507 57L517 54L520 44Z"/>
-      <path class="spark" d="M690 39L693 49L703 52L693 55L690 65L687 55L677 52L687 49L690 39Z"/>
-      <path class="spark" d="M865 50L868 60L878 63L868 66L865 76L862 66L852 63L862 60L865 50Z"/>
-      <path class="spark" d="M1030 42L1033 52L1043 55L1033 58L1030 68L1027 58L1017 55L1027 52L1030 42Z"/>
-    </g>
+    <rect x="14" y="14" width="1172" height="292" rx="14" stroke="url(#borderGlow)" stroke-width="2"/>
 
-    <line x1="160" y1="112" x2="1040" y2="112" stroke="#334155" stroke-width="2" opacity="0.7"/>
+    <circle cx="52" cy="42" r="6" fill="#22c55e" fill-opacity="0.95"/>
+    <circle cx="74" cy="42" r="6" fill="#84cc16" fill-opacity="0.85"/>
+    <circle cx="96" cy="42" r="6" fill="#15803d" fill-opacity="0.75"/>
 
-    <text
-      x="600"
-      y="205"
-      text-anchor="middle"
-      class="title"
-      fill="url(#textGrad)"
-      filter="url(#glow)">
-      nguyen tuan nguyen
-    </text>
+    <text x="60" y="88" class="small">$ whoami</text>
+    <text x="60" y="140" class="title" fill="#86efac" filter="url(#textGlow)">Nguyễn Tuấn Nguyên</text>
 
-    <line x1="160" y1="246" x2="1040" y2="246" stroke="#334155" stroke-width="2" opacity="0.7"/>
+    <text x="60" y="198" class="small">&gt; role: student, intern cyber security</text>
+    <text x="60" y="230" class="small">&gt; focus: web pentest, CTF</text>
+    <text x="60" y="262" class="small">&gt; status: online_</text>
+
+    <rect x="60" y="278" width="1080" height="2" fill="#22c55e" fill-opacity="0.18"/>
   </svg>
