@@ -29,6 +29,7 @@ Currently studying at Academy of Cryptography Techniques
 
   ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square)
   ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square)
+  ![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=Python)
   ![Java](https://img.shields.io/badge/Java-orange?style=flat-square&logo=java)
   ![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=flat-square&logo=metasploit&logoColor=white)
 
