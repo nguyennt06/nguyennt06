@@ -1,0 +1,53 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="#0d1117"/>
+        <stop offset="100%" stop-color="#111827"/>
+      </linearGradient>
+      <linearGradient id="textGrad" x1="220" y1="70" x2="980" y2="250" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="#ff4ecd"/>
+        <stop offset="50%" stop-color="#c026d3"/>
+        <stop offset="100%" stop-color="#7c3aed"/>
+      </linearGradient>
+      <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+        <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.35"/>
+      </filter>
+      <style>
+        .title {
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 86px;
+          font-weight: 800;
+          letter-spacing: -2px;
+        }
+        .spark {
+          fill: #f8fafc;
+          opacity: 0.95;
+        }
+      </style>
+    </defs>
+
+    <rect width="1200" height="320" rx="28" fill="url(#bg)"/>
+
+    <g opacity="0.95">
+      <path class="spark" d="M175 55L178 65L188 68L178 71L175 81L172 71L162 68L172 65L175 55Z"/>
+      <path class="spark" d="M365 36L368 46L378 49L368 52L365 62L362 52L352 49L362 46L365 36Z"/>
+      <path class="spark" d="M520 44L523 54L533 57L523 60L520 70L517 60L507 57L517 54L520 44Z"/>
+      <path class="spark" d="M690 39L693 49L703 52L693 55L690 65L687 55L677 52L687 49L690 39Z"/>
+      <path class="spark" d="M865 50L868 60L878 63L868 66L865 76L862 66L852 63L862 60L865 50Z"/>
+      <path class="spark" d="M1030 42L1033 52L1043 55L1033 58L1030 68L1027 58L1017 55L1027 52L1030 42Z"/>
+    </g>
+
+    <line x1="160" y1="112" x2="1040" y2="112" stroke="#334155" stroke-width="2" opacity="0.7"/>
+
+    <text
+      x="600"
+      y="205"
+      text-anchor="middle"
+      class="title"
+      fill="url(#textGrad)"
+      filter="url(#glow)">
+      nguyen tuan nguyen
+    </text>
+
+    <line x1="160" y1="246" x2="1040" y2="246" stroke="#334155" stroke-width="2" opacity="0.7"/>
+  </svg>
