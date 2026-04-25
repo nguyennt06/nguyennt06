@@ -54,7 +54,7 @@
     <text x="60" y="140" class="title" fill="#86efac" filter="url(#textGlow)">Nguyễn Tuấn Nguyên</text>
 
     <text x="60" y="198" class="small">&gt; role: student, intern cyber security</text>
-    <text x="60" y="230" class="small">&gt; focus: web pentest</text>
+    <text x="60" y="230" class="small">&gt; focus: web pentest, CTF</text>
     <text x="60" y="262" class="small">&gt; status: online_</text>
 
     <rect x="60" y="278" width="1080" height="2" fill="#22c55e" fill-opacity="0.18"/>
