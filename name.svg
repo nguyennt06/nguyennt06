@@ -53,7 +53,7 @@
     <text x="60" y="88" class="small">$ whoami</text>
     <text x="60" y="140" class="title" fill="#86efac" filter="url(#textGlow)">Nguyễn Tuấn Nguyên</text>
 
-    <text x="60" y="198" class="small">&gt; role: student, intern cyber security</text>
+    <text x="60" y="198" class="small">&gt; role: student, cyber security</text>
     <text x="60" y="230" class="small">&gt; focus: web pentest, CTF</text>
     <text x="60" y="262" class="small">&gt; status: online_</text>
 
