@@ -33,5 +33,8 @@ Currently studying at Academy of Cryptography Techniques
   ![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=flat-square&logo=metasploit&logoColor=white)
 
 
+![GitHub Streak](https://streak-stats.demolab.com?user=nguyennt06&theme=tokyonight)
+
+
 
 
