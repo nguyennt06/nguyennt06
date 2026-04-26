@@ -36,6 +36,11 @@ Currently studying at Academy of Cryptography Techniques
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=nguyennt06&theme=tokyonight)
 
+## 🛰📞 Contact
+@u3hn6u_ on Discord
+
+@tnguyen0905 on Telegram
+
 
 
 
